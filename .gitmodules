@@ -1,0 +1,3 @@
+[submodule "Eurorack-Kicad-libraries"]
+	path = external/Eurorack-Kicad-libraries
+	url = https://github.com/TuskSE/Eurorack-Kicad-libraries.git

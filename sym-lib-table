@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "eurocad")(type "KiCad")(uri "${KIPRJMOD}/external/Eurorack-Kicad-libraries/eurocad.kicad_sym")(options "")(descr ""))
+)

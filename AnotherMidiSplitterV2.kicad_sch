@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 269.24 105.41 0)
 			(effects
 				(font
@@ -4132,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 246.38 72.39 0)
 			(effects
 				(font
@@ -4200,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 246.38 138.43 0)
 			(effects
 				(font
@@ -4345,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -4492,7 +4492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 111.76 46.99 0)
 			(effects
 				(font
@@ -4768,7 +4768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 57.15 55.88 0)
 			(effects
 				(font
@@ -4838,7 +4838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 76.2 45.72 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 53.34 91.44 0)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 173.99 105.41 0)
+		(at 173.99 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5301,7 +5301,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ddc114a-af24-4bd5-9925-4b2c58834ac9")
 		(property "Reference" "U1"
-			(at 173.99 96.52 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,15 +5309,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 173.99 99.06 0)
+			(at 173.99 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 173.99 105.41 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 173.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 173.99 105.41 0)
+			(at 173.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 173.99 105.41 0)
+			(at 173.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -5607,7 +5607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 246.38 39.37 0)
 			(effects
 				(font
@@ -5651,7 +5651,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 173.99 138.43 0)
+		(at 132.08 101.6 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5660,7 +5660,7 @@
 		(fields_autoplaced yes)
 		(uuid "47e07f05-97d2-42e0-bac7-1251312054bf")
 		(property "Reference" "U1"
-			(at 173.99 129.54 0)
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,15 +5668,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 173.99 132.08 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 173.99 138.43 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 132.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5685,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 173.99 138.43 0)
+			(at 132.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5694,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 173.99 138.43 0)
+			(at 132.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 208.28 39.37 0)
 			(effects
 				(font
@@ -5990,7 +5990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -6125,7 +6125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 34.29 163.83 0)
 			(effects
 				(font
@@ -6193,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 208.28 138.43 0)
 			(effects
 				(font
@@ -6237,7 +6237,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 173.99 39.37 0)
+		(at 234.95 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6246,7 +6246,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f11f487-9495-4cd0-b867-f33a41826bc3")
 		(property "Reference" "U3"
-			(at 173.99 30.48 0)
+			(at 234.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,15 +6254,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 173.99 33.02 0)
+			(at 234.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 173.99 39.37 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6271,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 173.99 39.37 0)
+			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6280,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 173.99 39.37 0)
+			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6407,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 234.95 138.43 0)
+		(at 134.62 128.27 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6416,7 +6416,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f9a9054-24a6-474f-9f1b-d7da618d8dcc")
 		(property "Reference" "U1"
-			(at 234.95 129.54 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,15 +6424,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 234.95 132.08 0)
+			(at 134.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 234.95 138.43 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6441,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 234.95 138.43 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6450,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 234.95 138.43 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 35.56 102.87 0)
 			(effects
 				(font
@@ -7219,7 +7219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 185.42 138.43 0)
 			(effects
 				(font
@@ -7562,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 185.42 72.39 0)
 			(effects
 				(font
@@ -7738,7 +7738,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 83.82 105.41 0)
+		(at 234.95 138.43 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7747,7 +7747,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9c08bb2-fe6e-49a6-a41a-d09040ebde07")
 		(property "Reference" "U3"
-			(at 83.82 96.52 0)
+			(at 234.95 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,15 +7755,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 83.82 99.06 0)
+			(at 234.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 83.82 105.41 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 234.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7772,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 83.82 105.41 0)
+			(at 234.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +7781,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 83.82 105.41 0)
+			(at 234.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 269.24 39.37 0)
 			(effects
 				(font
@@ -7934,7 +7934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 123.19 170.18 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 173.99 72.39 0)
+		(at 83.82 105.41 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8166,7 +8166,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6e18529-97b9-4c96-b8ba-e1257ac86974")
 		(property "Reference" "U3"
-			(at 173.99 63.5 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,15 +8174,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 173.99 66.04 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 173.99 72.39 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8191,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 173.99 72.39 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8200,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 173.99 72.39 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 208.28 105.41 0)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -8498,7 +8498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -8578,7 +8578,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 234.95 39.37 0)
+		(at 173.99 72.39 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8587,7 +8587,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5a769b2-1402-470c-ac89-2e92caf99c5f")
 		(property "Reference" "U3"
-			(at 234.95 30.48 0)
+			(at 173.99 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,15 +8595,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 234.95 33.02 0)
+			(at 173.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 234.95 39.37 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8612,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 234.95 39.37 0)
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8621,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 234.95 39.37 0)
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +8838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 269.24 72.39 0)
 			(effects
 				(font
@@ -8882,7 +8882,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 234.95 72.39 0)
+		(at 173.99 105.41 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8891,7 +8891,7 @@
 		(fields_autoplaced yes)
 		(uuid "c96f61ac-244f-4c10-a414-4a1e652f540a")
 		(property "Reference" "U1"
-			(at 234.95 63.5 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,15 +8899,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 234.95 66.04 0)
+			(at 173.99 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 234.95 72.39 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8916,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 234.95 72.39 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8925,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 234.95 72.39 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm_Socket_LongPads"
 			(at 61.214 105.41 0)
 			(effects
 				(font
@@ -9158,7 +9158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 78.74 163.83 0)
 			(effects
 				(font
@@ -9462,7 +9462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 51.435 106.68 0)
 			(effects
 				(font
@@ -9548,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -9618,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
 			(at 70.1548 49.53 0)
 			(effects
 				(font
@@ -9728,7 +9728,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 123.19 186.69 0)
+		(at 173.99 138.43 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9737,7 +9737,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebe35841-9501-490f-a576-a904d7844abf")
 		(property "Reference" "U1"
-			(at 123.19 177.8 0)
+			(at 173.99 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,15 +9745,15 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 123.19 180.34 0)
+			(at 173.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
-			(at 123.19 186.69 0)
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
+			(at 173.99 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9762,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 123.19 186.69 0)
+			(at 173.99 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9771,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 123.19 186.69 0)
+			(at 173.99 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_5.3x10.2mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 43.18 163.83 0)
 			(effects
 				(font
@@ -10028,7 +10028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 246.38 105.41 0)
 			(effects
 				(font
@@ -10163,7 +10163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 68.58 163.83 0)
 			(effects
 				(font
@@ -10231,7 +10231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 269.24 138.43 0)
 			(effects
 				(font

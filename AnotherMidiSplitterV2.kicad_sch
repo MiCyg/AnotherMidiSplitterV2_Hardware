@@ -2829,6 +2829,12 @@
 		(uuid "be836689-3bdc-4529-8020-9cb3c01af675")
 	)
 	(junction
+		(at 73.66 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c79d0bbf-38f5-4bac-95da-5b5a8cb3fc72")
+	)
+	(junction
 		(at 46.99 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3121,6 +3127,16 @@
 			(type default)
 		)
 		(uuid "40bd7855-d087-4ef2-9922-ae470a54e686")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a03c02-b509-447d-9beb-7fb06e62855e")
 	)
 	(wire
 		(pts
@@ -3484,6 +3500,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 99.06) (xy 73.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8803eb95-a20e-4cd5-9648-b3e6a96f0bf2")
+	)
+	(wire
+		(pts
 			(xy 71.12 40.64) (xy 71.12 41.91)
 		)
 		(stroke
@@ -3544,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 105.41) (xy 76.2 105.41)
+			(xy 71.12 105.41) (xy 73.66 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3631,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "ad2d063e-3bfc-45ce-9133-395d4cfbb749")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 76.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4a98bc-d4a9-4ac2-ba3e-3deac1461e70")
 	)
 	(wire
 		(pts
@@ -4035,6 +4071,74 @@
 			(project "AnotherMidiSplitterV2"
 				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 73.66 96.52 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "056a1fbb-1747-4961-9d1f-4df182794cfe")
+		(property "Reference" "R21"
+			(at 77.47 96.52 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 75.438 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98c3810e-ac5a-4c08-a84a-00ddb62af656")
+		)
+		(pin "2"
+			(uuid "cf876b84-290a-4f33-850e-f83b3afa213c")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8156,6 +8260,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e7e2f5-9b1c-4a6d-9109-3fd6dbbd6e2b")
+		(property "Reference" "#PWR032"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e4ebdd-a856-4381-9a61-46540937a2bc")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
 		(at 173.99 72.39 0)
 		(unit 3)
@@ -8992,10 +9162,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb65dc7a-88a2-4138-8a22-581683d0d4f2")
 		(property "Reference" "U2"
-			(at 73.66 98.9898 0)
+			(at 66.802 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9172,7 @@
 			)
 		)
 		(property "Value" "H11L1"
-			(at 73.66 101.5298 0)
+			(at 66.802 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)

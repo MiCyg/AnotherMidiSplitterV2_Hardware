@@ -45,3 +45,4 @@ production/*
 *-backups
 *.json
 3d
+doc

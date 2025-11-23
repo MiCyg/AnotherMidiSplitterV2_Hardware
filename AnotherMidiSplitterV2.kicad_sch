@@ -5,9 +5,10 @@
 	(uuid "c84a968a-2048-42bb-b985-8c3fe6c218ef")
 	(paper "A4")
 	(title_block
-		(title "AnotherMidiSplitterV2")
-		(date "2025-11-05")
-		(company "Miłosz Derżko")
+		(title "${ProjectTitle}")
+		(date "2025-11-23")
+		(rev "${Revision}")
+		(company "${Company}")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC14"
@@ -2790,7 +2791,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid 0b2bb5b7-8774-4ca4-973f-38a5c5dc86d1)
 	)
@@ -2806,7 +2808,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid 0e15235d-b411-43de-b98d-fadd06530b18)
 	)
@@ -2821,7 +2824,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid 18f62bd9-8d39-4b7d-90e5-ae4be2ac88e9)
 	)
@@ -2836,7 +2840,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid 1debe9a6-b6f5-40a4-82fe-b269b44a280d)
 	)
@@ -2852,7 +2857,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid 28e0fdc7-7269-44ae-b89a-f459198ec621)
 	)
@@ -2868,7 +2874,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid 2a967d83-c10e-45ec-b264-0d6d28359f74)
 	)
@@ -2884,23 +2891,10 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
-		)
-		(uuid 58304515-53ad-40ee-89af-31c000cf4328)
-	)
-	(polyline
-		(pts
-			(xy 279.0846 170.9945) (xy 279.0846 170.9945)
-		)
-		(stroke
-			(width -0.0001)
-			(type solid)
+			(type color)
 			(color 0 0 0 1)
 		)
-		(fill
-			(type outline)
-		)
-		(uuid aac0af1c-70e3-4d8b-9eb4-6b91e09be27a)
+		(uuid 58304515-53ad-40ee-89af-31c000cf4328)
 	)
 	(polyline
 		(pts
@@ -2915,7 +2909,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid ab1bafc1-fa35-4759-8cf1-a419bf8dba77)
 	)
@@ -2930,7 +2925,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid b0a6dfbf-5e16-40d5-9358-b69945738734)
 	)
@@ -2945,7 +2941,8 @@
 			(color 0 0 0 1)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 1)
 		)
 		(uuid e783cf54-1318-457f-9760-1ec09a669f02)
 	)
@@ -2963,7 +2960,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 51.562 25.908 0)
+		(at 63.246 22.606 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2984,6 +2981,16 @@
 			)
 		)
 		(uuid "7f97ddc2-25e7-4e34-a575-5db2db374730")
+	)
+	(text "Choose one"
+		(exclude_from_sim no)
+		(at 102.87 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b350fee7-2eae-4417-b2c8-6cba336b7023")
 	)
 	(junction
 		(at 73.66 52.07)
@@ -3008,6 +3015,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fd2cd39-1656-4cdd-a883-203079ea596d")
+	)
+	(junction
+		(at 93.98 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e403c8-05b8-4429-9c30-81d0fd0e1259")
 	)
 	(junction
 		(at 78.74 156.21)
@@ -3261,7 +3274,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 109.22) (xy 116.84 110.49)
+			(xy 116.84 105.41) (xy 116.84 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3408,6 +3421,16 @@
 			(type default)
 		)
 		(uuid "4b3f5af9-f20e-44f5-a72c-933ac509f756")
+	)
+	(wire
+		(pts
+			(xy 110.49 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb8fd14-7adc-40dd-b6fc-912b5b95a036")
 	)
 	(wire
 		(pts
@@ -3571,6 +3594,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 57.15) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dec1a9c-0706-4ec3-9df1-8b29f2782291")
+	)
+	(wire
+		(pts
 			(xy 57.15 114.3) (xy 59.69 114.3)
 		)
 		(stroke
@@ -3701,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 116.84 100.33)
+			(xy 116.84 97.79) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3859,6 +3892,17 @@
 		)
 		(uuid "aa72c8af-e0a9-4582-9717-8aad89577037")
 	)
+	(polyline
+		(pts
+			(xy 279.0846 170.9945) (xy 279.0846 170.9945)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "aac0af1c-70e3-4d8b-9eb4-6b91e09be27a")
+	)
 	(wire
 		(pts
 			(xy 248.92 72.39) (xy 250.19 72.39)
@@ -3881,7 +3925,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 116.84 116.84)
+			(xy 116.84 111.76) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3898,6 +3942,16 @@
 			(type default)
 		)
 		(uuid "b7cadc0f-2bb9-4e6b-9ba3-15c5a402b411")
+	)
+	(wire
+		(pts
+			(xy 93.98 40.64) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96dbcea-fb9c-421b-bce6-9a89b758863e")
 	)
 	(wire
 		(pts
@@ -3938,6 +3992,16 @@
 			(type default)
 		)
 		(uuid "c8a20571-402c-4fe8-9aec-37bb004f17b6")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb45ba6d-e6eb-484d-909b-c5e7a3e23a77")
 	)
 	(wire
 		(pts
@@ -4018,6 +4082,36 @@
 			(type default)
 		)
 		(uuid "dfe0ea04-efcf-497b-a4f9-1c247e79dd02")
+	)
+	(wire
+		(pts
+			(xy 93.98 38.1) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10f7a34-1db1-4d11-b9a8-2116d7e56e88")
+	)
+	(wire
+		(pts
+			(xy 93.98 55.88) (xy 93.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17fcb11-702d-493b-a545-bea3fd822918")
+	)
+	(wire
+		(pts
+			(xy 93.98 48.26) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23b1f9e-9e64-4748-a4de-aedcf1f11798")
 	)
 	(wire
 		(pts
@@ -4109,6 +4203,16 @@
 		)
 		(uuid "f4b2797c-fb6e-475e-927c-9d1815257d00")
 	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 110.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f69e07-d3e1-48cd-9431-4f5e103d0c05")
+	)
 	(label "MIDI_SIG"
 		(at 99.06 111.76 0)
 		(effects
@@ -4190,7 +4294,7 @@
 		(uuid "d0f378a4-0d3c-4e05-8fc3-81c282abf61a")
 	)
 	(label "MIDI_SIG"
-		(at 116.84 100.33 0)
+		(at 116.84 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4350,6 +4454,85 @@
 			(project "AnotherMidiSplitterV2"
 				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07678ee1-2663-4282-9180-f898c932395f")
+		(property "Reference" "D3"
+			(at 97.79 44.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR LED"
+			(at 97.79 47.3074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f526dd-7bb1-4142-ad25-5817a8757f3a")
+		)
+		(pin "2"
+			(uuid "0cc0948b-3b58-45f5-9999-ab8f4d08ce4f")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4559,8 +4742,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 257.81 69.85 0)
-		(mirror x)
+		(at 257.81 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4704,8 +4886,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 196.85 69.85 0)
-		(mirror x)
+		(at 196.85 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4781,7 +4962,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 116.84 105.41 90)
+		(at 116.84 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4790,7 +4971,7 @@
 		(fields_autoplaced yes)
 		(uuid "284a4783-4d18-486b-b5df-a1b869394961")
 		(property "Reference" "D2"
-			(at 120.65 105.7274 90)
+			(at 120.65 101.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4980,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 120.65 108.2674 90)
+			(at 120.65 104.4574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4989,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 116.84 105.41 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 105.41 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +5007,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 116.84 105.41 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +5016,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 105.41 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5173,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 116.84 113.03 0)
+		(at 116.84 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5001,7 +5182,7 @@
 		(dnp no)
 		(uuid "33497b0d-ac8f-4ec1-a6f6-414b628c8610")
 		(property "Reference" "R4"
-			(at 113.03 113.03 90)
+			(at 113.03 109.22 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5009,7 +5190,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 115.062 113.03 90)
+			(at 115.062 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 116.84 113.03 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 113.03 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5216,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 116.84 113.03 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,6 +5995,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 110.49 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41592692-fc9a-47b5-ae33-a1706a430f79")
+		(property "Reference" "R23"
+			(at 106.68 53.34 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 108.712 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f58acf93-7b07-4ec4-9dd6-a415489d0e4c")
+		)
+		(pin "2"
+			(uuid "340f316c-7fa2-42eb-bf0c-a03073a48d4c")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
 		(at 36.83 49.53 0)
 		(unit 1)
@@ -6136,8 +6385,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 257.81 36.83 0)
-		(mirror x)
+		(at 257.81 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6892,8 +7140,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 196.85 102.87 0)
-		(mirror x)
+		(at 196.85 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6969,8 +7216,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 257.81 102.87 0)
-		(mirror x)
+		(at 257.81 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7173,6 +7419,72 @@
 			(project "AnotherMidiSplitterV2"
 				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7292007c-5b67-428b-acea-97def5795067")
+		(property "Reference" "#PWR033"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf932371-d15a-4b6b-a841-29707a98abff")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7444,7 +7756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 116.84 0)
+		(at 116.84 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7453,7 +7765,7 @@
 		(fields_autoplaced yes)
 		(uuid "831bbd2a-f00c-41b8-a4e7-9c4d61000c7a")
 		(property "Reference" "#PWR013"
-			(at 116.84 123.19 0)
+			(at 116.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +7774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 121.92 0)
+			(at 116.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 116.84 0)
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 116.84 0)
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7800,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 116.84 0)
+			(at 116.84 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,6 +7889,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 93.98 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86ee1edc-de11-4516-a073-c6652317a8d8")
+		(property "Reference" "R22"
+			(at 90.17 53.34 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 92.202 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 93.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dddc764f-0cf7-41a1-a10e-e28c38ddd747")
+		)
+		(pin "2"
+			(uuid "9785b9b0-fd56-425f-b918-2a58a5d410e9")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 52.07 0)
 		(unit 1)
@@ -7644,8 +8024,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 257.81 135.89 0)
-		(mirror x)
+		(at 257.81 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8224,6 +8603,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac11d3b4-418e-44b6-a34f-0e695d972091")
+		(property "Reference" "#PWR034"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 93.98 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eddbcc4a-a138-4662-a911-0f96b143586b")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
 		(at 123.19 170.18 0)
 		(unit 5)
@@ -8328,9 +8773,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec4632f-900a-4c4c-96b2-9afc049cf3d8")
+		(property "Reference" "D4"
+			(at 114.3 44.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PWR LED"
+			(at 114.3 47.3074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e82e988f-c294-4f2d-a6c4-8b76c0ee948b")
+		)
+		(pin "2"
+			(uuid "30a5c287-9455-496f-a320-c13210247ce3")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 196.85 36.83 0)
-		(mirror x)
+		(at 196.85 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8642,8 +9165,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-5_180degree")
-		(at 196.85 135.89 0)
-		(mirror x)
+		(at 196.85 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9965,6 +10487,72 @@
 			(project "AnotherMidiSplitterV2"
 				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e69c7b58-028d-435d-826d-5848007086aa")
+		(property "Reference" "#PWR035"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a914b4-4f75-40da-91ba-ea4a8e4063e2")
+		)
+		(instances
+			(project "AnotherMidiSplitterV2"
+				(path "/c84a968a-2048-42bb-b985-8c3fe6c218ef"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

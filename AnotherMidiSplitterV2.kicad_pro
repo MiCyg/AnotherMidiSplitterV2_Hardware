@@ -661,5 +661,10 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BoardName": "MainBoard",
+    "Company": "Miłosz Derżko",
+    "ProjectTitle": "AnotherMidiSplitterV2",
+    "Revision": "3.0.0"
+  }
 }

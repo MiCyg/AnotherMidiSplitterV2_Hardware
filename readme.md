@@ -1,5 +1,5 @@
 # Another MIDI Splitter V2 Hardware
-![Work in Progress](https://img.shields.io/badge/status-in--progress-orange)
+![Done](https://img.shields.io/badge/status-done-green)
 
 [← Back to main repository](https://github.com/MiCyg/AnotherMidiSplitterV2.git)
 

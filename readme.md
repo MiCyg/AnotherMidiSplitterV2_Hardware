@@ -5,4 +5,10 @@
 
 ---
 
-A classic schematic and PCB design for a MIDI splitter. More information in future.
+A classic schematic and PCB design for a MIDI splitter. It is powered by a 5V USB-C connector. Contains 8 MIDI outputs on DIN-5 connectors, and in the latest version I added LEDs to check if the PCB works. 
+
+<p align="center">
+	<img src="images/pcb1.jpg" width="45%" />
+	<img src="images/pcb2.jpg" width="45%" />
+</p>
+
